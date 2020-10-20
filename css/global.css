@@ -1,4 +1,27 @@
-.logo {
-    width: 50px;
-    width: 50px;
+.ap-logo {
+    height: 200px;
+    width: 200px;
+}
+
+.ap-menu-button {
+    border: none;
+    padding: 0;
+    margin-bottom: 6px;
+}
+
+.ap-nav-link {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 6px !important;
+}
+
+div.ap-imagetiles div.col-lg-4.col-md-4.col-sm-6.col-xs-6{
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.ap-img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
