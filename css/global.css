@@ -1,6 +1,5 @@
 .ap-logo {
     height: 200px;
-    width: 200px;
 }
 
 .ap-menu-button {
@@ -15,13 +14,16 @@
     margin-bottom: 6px !important;
 }
 
-div.ap-imagetiles div.col-lg-4.col-md-4.col-sm-6.col-xs-6{
+.ap-card {
     padding-bottom: 15px;
-    padding-right: 15px;
 }
 
-.ap-img-responsive {
+.ap-img-responsive, .ap-home-img-responsive {
     display: block;
     height: auto;
     max-width: 100%;
+}
+
+.ap-home-img-responsive:hover {
+    opacity: 0.75;
 }
