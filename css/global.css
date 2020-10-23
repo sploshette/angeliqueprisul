@@ -1,11 +1,20 @@
+/* bootstrap override */
+
+.navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+/* custom ap */
+
 .ap-logo-fixed {
-    height: 200px;
+    height: 120px;
 }
 
 .ap-logo-responsive {
     display: block;
     height: auto;
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .ap-logo-navbar-toggler {
@@ -23,6 +32,8 @@
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     margin-bottom: 6px !important;
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
 }
 
 .ap-card {
