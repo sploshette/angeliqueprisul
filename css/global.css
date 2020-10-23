@@ -1,5 +1,16 @@
-.ap-logo {
+.ap-logo-fixed {
     height: 200px;
+}
+
+.ap-logo-responsive {
+    display: block;
+    height: auto;
+    max-width: 80%;
+}
+
+.ap-logo-navbar-toggler {
+    border: 0;
+    width: 93%;
 }
 
 .ap-menu-button {
@@ -22,6 +33,10 @@
     display: block;
     height: auto;
     max-width: 100%;
+}
+
+.ap-img-responsive {
+    padding-bottom: 15px;
 }
 
 .ap-home-img-responsive:hover {
