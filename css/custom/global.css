@@ -53,3 +53,16 @@
 .ap-home-img-responsive:hover {
     opacity: 0.75;
 }
+
+.ap-black-container {
+    color: white;
+    background-color: black;
+    padding: 15px;
+    margin: 15px;
+}
+
+.ap-vr {
+    border-left:2px solid black;
+    height:40px;
+    display: inline-block;
+}
