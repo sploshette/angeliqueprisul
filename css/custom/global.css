@@ -55,14 +55,14 @@
 }
 
 .ap-black-container {
-    color: white;
-    background-color: black;
+    color: #ffffff !important;
+    background-color: #000000 !important;
     padding: 15px;
     margin: 15px;
 }
 
 .ap-vr {
-    border-left:2px solid black;
+    border-left:2px solid #000000 !important;
     height:40px;
     display: inline-block;
 }
