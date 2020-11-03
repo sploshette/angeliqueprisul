@@ -48,8 +48,6 @@
         </div>
     </nav>
 
-    <hr>
-
     <div class="row">
         <span class="text-center w-100">
             <strong>Travaillons ensemble !</strong>
@@ -58,14 +56,13 @@
     <br>
     <div class="row">
         <span class="text-center w-100">
-            <span class="badge badge-dark ap-black-badge"><h6>Services et expertises proposés</h6></span>
+            <strong>SERVICES ET EXPERTISES PROPOSÉS</strong>
         </span>
     </div>
-    <br>
     <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12 ap-card">
             <div class="text-center column">
-                <span>Branding</span>
+                <span>BRANDING</span>
                 <br>
                 <div class="text-muted">+ Création de marque</div>
                 <div class="text-muted">+ Logotype</div>
@@ -75,16 +72,16 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 ap-card">
             <div class="text-center column">
-                <span>Graphisme</span>
+                <span>GRAPHISME</span>
                 <br>
                 <div class="text-muted">+ Edition</div>
                 <div class="text-muted">+ Print</div>
-                <div class="text-muted">+ Retouche photo</div>
+                <div class="text-muted">+ Maîtrise de la chaîne graphique</div>
             </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 ap-card">
             <div class="text-center column">
-                <span>Motion</span>
+                <span>MOTION</span>
                 <br>
                 <div class="text-muted">+ Animation 2D</div>
                 <div class="text-muted">+ Animation texte</div>
@@ -109,42 +106,12 @@
             Toulouse | Montauban | Albi | Bordeaux
         </span>
     </div>
-    <hr>
     <div class="pt-5"></div>
 
 </div>
 
 <script src="js/vendor/jquery-3.5.1.slim.min.js"></script>
 <script src="js/vendor/bootstrap.bundle.min.js"></script>
-
-<script>
-    window.onload = function() {
-        var videos = document.getElementsByTagName("video"),
-            fraction = 0.2;
-        function checkScroll() {
-            for (var i = 0; i < videos.length; i++) {
-                var video = videos[i];
-                var x = video.offsetLeft,
-                    y = video.offsetTop,
-                    w = video.offsetWidth,
-                    h = video.offsetHeight,
-                    r = x + w, //right
-                    b = y + h, //bottom
-                    visibleX, visibleY, visible;
-                visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
-                visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
-                visible = visibleX * visibleY / (w * h);
-                if (visible > fraction) {
-                    video.play();
-                } else {
-                    video.pause();
-                }
-            }
-        }
-        window.addEventListener('scroll', checkScroll, false);
-        window.addEventListener('resize', checkScroll, false);
-    }
-</script>
 
 </body>
 </html>
