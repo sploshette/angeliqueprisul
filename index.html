@@ -57,6 +57,12 @@
 
     <hr>
 
+    <div class="row pl-1 pr-1 d-block">
+        <video controls muted class="ap-img-responsive" style="padding-left: 12px !important; padding-right: 12px !important;">
+            <source src="images/voeux2021.mp4" type="video/mp4">
+        </video>
+    </div>
+
     <div class="row">
 
         <div class="col-lg-4 col-md-6 col-sm-12 ap-card">
@@ -183,6 +189,16 @@
 
 <script src="js/vendor/jquery-3.5.1.slim.min.js"></script>
 <script src="js/vendor/bootstrap.bundle.min.js"></script>
+
+<script>
+    window.onload = function() {
+        var videos = document.getElementsByTagName("video");
+        for (var i = 0; i < videos.length; i++) {
+            var video = videos[i];
+            video.play();
+        }
+    }
+</script>
 
 </body>
 </html>
